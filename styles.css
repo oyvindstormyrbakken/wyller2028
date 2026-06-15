@@ -1,0 +1,170 @@
+:root {
+  --ink: #172033;
+  --muted: #5b677a;
+  --line: #d7dee8;
+  --panel: #f5f8fc;
+  --blue: #12355b;
+  --ice: #e8f3ff;
+  --red: #c73535;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  background: #ffffff;
+  line-height: 1.5;
+}
+
+.shell {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 28px;
+}
+
+header {
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.logo {
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+}
+
+h1 {
+  margin: 0;
+  color: var(--blue);
+  font-size: 32px;
+  line-height: 1.15;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+nav a,
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 9px 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--blue);
+  background: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+nav a:hover,
+.button:hover {
+  background: var(--ice);
+}
+
+.button.primary {
+  color: #ffffff;
+  background: var(--blue);
+  border-color: var(--blue);
+}
+
+main {
+  padding: 32px 0 48px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 22px;
+  background: #ffffff;
+}
+
+.card h2 {
+  margin: 0 0 8px;
+  color: var(--blue);
+  font-size: 22px;
+}
+
+.card p {
+  margin: 0 0 18px;
+  color: var(--muted);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.summary {
+  margin-top: 24px;
+  padding: 20px;
+  border-left: 5px solid var(--red);
+  background: var(--panel);
+}
+
+.summary h2 {
+  margin: 0 0 8px;
+  color: var(--blue);
+}
+
+.summary ul {
+  margin: 10px 0 0;
+  padding-left: 20px;
+}
+
+footer {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 760px) {
+  .shell {
+    padding: 20px;
+  }
+
+  .topbar {
+    align-items: flex-start;
+  }
+
+  .logo {
+    width: 58px;
+    height: 58px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
