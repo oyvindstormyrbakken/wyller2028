@@ -4,8 +4,10 @@ Denne pakken inneholder en enkel statisk GitHub Pages-side for å navigere mello
 
 - Business case
 - Prosjektplan
+- Produktbeskrivelser og produktnedbrytningsstruktur
 - DOCX-nedlastinger for begge dokumenter
-- Excel-filer for KPI, governance, seniorroller og prosjektstyre
+- Excel-filer for KPI, governance, seniorroller, prosjektstyre, prosjektlogg og faseplaner
+- PowerPoint-mal for ukentlig team-scorekort
 
 ## Struktur
 
@@ -20,10 +22,14 @@ docs/
     business-case.docx
     prosjektplan.html
     prosjektplan.docx
+    produktbeskrivelser.html
     kpi-matrise.xlsx
     governance-matrise.xlsx
     seniorbrukere-seniorleverandorer.xlsx
     prosjektstyre.xlsx
+    prosjektlogg.xlsx
+    faseplaner.xlsx
+    ukentlig-team-scorekort.pptx
 ```
 
 ## Publisering på GitHub Pages

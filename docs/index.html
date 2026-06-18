@@ -13,66 +13,108 @@
         <img class="logo" src="assets/logo.png" alt="World Cup Alpint Wyllerløypa 2028 logo">
         <div>
           <h1>World Cup Alpint Wyllerløypa 2028</h1>
-          <p class="subtitle">PRINCE2-basert prosjektgrunnlag for business case og prosjektplan.</p>
+          <p class="subtitle">Prosjektportal for PRINCE2-dokumenter, styringsmatriser og rapportmaler.</p>
         </div>
       </div>
       <nav aria-label="Hovednavigasjon">
-        <a href="documents/business-case.html">Business case</a>
-        <a href="documents/prosjektplan.html">Prosjektplan</a>
-        <a href="documents/business-case.docx">Last ned business case</a>
-        <a href="documents/prosjektplan.docx">Last ned prosjektplan</a>
-        <a href="#excel">Excel-filer</a>
+        <a href="#sider">HTML-sider</a>
+        <a href="#word">Word</a>
+        <a href="#excel">Excel</a>
+        <a href="#ppt">PowerPoint</a>
+        <a href="#github">GitHub Pages</a>
       </nav>
     </div>
   </header>
 
   <main class="shell">
-    <section class="grid" aria-label="Dokumenter">
-      <article class="card">
-        <h2>Business Case</h2>
-        <p>Begrunnelse, alternativer, gevinster, kostnader, risiko, bærekraft, toleranser og anbefaling i PRINCE2-format.</p>
-        <div class="actions">
-          <a class="button primary" href="documents/business-case.html">Åpne HTML</a>
-          <a class="button" href="documents/business-case.docx">Last ned DOCX</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <h2>Prosjektplan</h2>
-        <p>Faser, milepæler, leveransestruktur, roller, delprosjekter, toleranser, kvalitet, rapportering og go/no-go-kriterier.</p>
-        <div class="actions">
-          <a class="button primary" href="documents/prosjektplan.html">Åpne HTML</a>
-          <a class="button" href="documents/prosjektplan.docx">Last ned DOCX</a>
-        </div>
-      </article>
+    <section class="summary">
+      <h2>Prosjektstatus</h2>
+      <p>Arrangementet er planlagt i Wyllerløypa 3. og 4. mars 2028. Dokumentene under er strukturert for prosjektstyring, faseplanlegging, rapportering og navigasjon i GitHub Pages.</p>
     </section>
 
-    <section class="summary" id="excel">
+    <section id="sider">
+      <h2 class="section-title">HTML-sider</h2>
+      <div class="grid">
+        <article class="card">
+          <h2>Business Case</h2>
+          <p>Begrunnelse, alternativer, gevinster, kostnader, risiko, bærekraft, toleranser og anbefaling.</p>
+          <div class="actions">
+            <a class="button primary" href="documents/business-case.html">Åpne side</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2>Prosjektplan</h2>
+          <p>Oppdatert plan med arrangementsdato 3.-4. mars 2028, faseplan, toleranser, rapportering og go/no-go.</p>
+          <div class="actions">
+            <a class="button primary" href="documents/prosjektplan.html">Åpne side</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2>Produktbeskrivelser</h2>
+          <p>Produktnedbrytningsstruktur og produktbeskrivelser for de viktigste leveransene i prosjektet.</p>
+          <div class="actions">
+            <a class="button primary" href="documents/produktbeskrivelser.html">Åpne side</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="word" class="summary">
+      <h2>Word-dokumenter</h2>
+      <div class="actions">
+        <a class="button" href="documents/business-case.docx">Business case DOCX</a>
+        <a class="button" href="documents/prosjektplan.docx">Prosjektplan DOCX</a>
+      </div>
+    </section>
+
+    <section id="excel" class="summary">
       <h2>Excel-filer</h2>
-      <p>Styringsmatriser og rolleoversikter kan lastes ned som Excel-filer.</p>
+      <p>Styringsmatriser, faseplaner og prosjektlogger kan lastes ned som Excel-filer.</p>
       <div class="actions">
         <a class="button" href="documents/kpi-matrise.xlsx">KPI-matrise</a>
         <a class="button" href="documents/governance-matrise.xlsx">Governance-matrise</a>
         <a class="button" href="documents/seniorbrukere-seniorleverandorer.xlsx">Seniorbrukere og seniorleverandører</a>
         <a class="button" href="documents/prosjektstyre.xlsx">Prosjektstyre</a>
+        <a class="button" href="documents/prosjektlogg.xlsx">Prosjektlogg PRINCE2</a>
+        <a class="button" href="documents/faseplaner.xlsx">Faseplaner</a>
       </div>
+    </section>
+
+    <section id="ppt" class="summary">
+      <h2>PowerPoint</h2>
+      <p>Rapportmal for ukentlig teamrapportering på tid, kostnad, omfang, kvalitet, risiko, forventet gevinst og bærekraft.</p>
+      <div class="actions">
+        <a class="button" href="documents/ukentlig-team-scorekort.pptx">Ukentlig team-scorekort PPTX</a>
+      </div>
+    </section>
+
+    <section id="github" class="summary">
+      <h2>GitHub Pages</h2>
+      <ul>
+        <li>Last opp hele repo-mappen til GitHub.</li>
+        <li>Gå til <strong>Settings -> Pages</strong>.</li>
+        <li>Velg <strong>Deploy from a branch</strong>, branch <strong>main</strong>, folder <strong>/docs</strong>.</li>
+        <li>Åpne publisert Pages-lenke for å navigere i prosjektportalen.</li>
+      </ul>
     </section>
 
     <section class="summary">
       <h2>Pakkeinnhold</h2>
       <ul>
-        <li><strong>docs/index.html</strong> - landingsside for GitHub Pages.</li>
-        <li><strong>docs/documents/business-case.html</strong> - nettversjon av business case.</li>
-        <li><strong>docs/documents/prosjektplan.html</strong> - nettversjon av prosjektplan.</li>
-        <li><strong>docs/documents/*.docx</strong> - Word-versjoner for nedlasting.</li>
-        <li><strong>docs/documents/*.xlsx</strong> - Excel-versjoner av KPI, governance, seniorroller og prosjektstyre.</li>
+        <li><strong>docs/index.html</strong> - samlet prosjektportal.</li>
+        <li><strong>docs/documents/*.html</strong> - navigerbare HTML-sider.</li>
+        <li><strong>docs/documents/*.docx</strong> - Word-dokumenter.</li>
+        <li><strong>docs/documents/*.xlsx</strong> - Excel-filer for styring og oppfølging.</li>
+        <li><strong>docs/documents/*.pptx</strong> - PowerPoint-rapportmal.</li>
       </ul>
     </section>
   </main>
 
   <footer>
     <div class="shell">
-      <p>Utkast for World Cup Alpint Wyllerløypa 2028. Strukturert for GitHub Pages.</p>
+      <p>World Cup Alpint Wyllerløypa 2028 | Prosjektportal for GitHub Pages.</p>
     </div>
   </footer>
 </body>
