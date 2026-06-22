@@ -5,6 +5,7 @@ Denne pakken inneholder en enkel statisk GitHub Pages-side for å navigere mello
 - Business case
 - Prosjektplan
 - Produktbeskrivelser og produktnedbrytningsstruktur
+- Prosjektorganisasjon
 - DOCX-nedlastinger for begge dokumenter
 - Excel-filer for KPI, governance, seniorroller, prosjektstyre, prosjektlogg og faseplaner
 - Excel-fil for interessentkartlegging og kommunikasjonsledelse
@@ -24,6 +25,7 @@ docs/
     prosjektplan.html
     prosjektplan.docx
     produktbeskrivelser.html
+    Prosjektorganisasjon-World-Cup-Alpint-Wyllerloypa-2028.html
     kpi-matrise.xlsx
     governance-matrise.xlsx
     seniorbrukere-seniorleverandorer.xlsx
