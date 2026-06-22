@@ -9,6 +9,7 @@ Denne pakken inneholder en enkel statisk GitHub Pages-side for å navigere mello
 - DOCX-nedlastinger for begge dokumenter
 - Excel-filer for KPI, governance, seniorroller, prosjektstyre, prosjektlogg og faseplaner
 - Excel-fil for interessentkartlegging og kommunikasjonsledelse
+- Grovbudsjett i Excel
 - PowerPoint-mal for ukentlig team-scorekort
 
 ## Struktur
@@ -33,6 +34,7 @@ docs/
     prosjektlogg.xlsx
     faseplaner.xlsx
     Interessentkartlegging-og-kommunikasjonsledelse-World-Cup-Alpint-Wyllerloypa-2028.xlsx
+    Grovbudsjett-World-Cup-Alpint-Wyllerloypa-2028.xlsx
     ukentlig-team-scorekort.pptx
 ```
 
