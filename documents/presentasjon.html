@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Presentasjon - Avslutte et prosjekt - Wyllerløypa 2028</title>
+  <style>
+    :root{--blue:#12355b;--ink:#172033;--ice:#e8f3ff;--snow:#f7fbff;--line:#cbd5e1;--red:#c73535;--green:#1f7a4d}
+    *{box-sizing:border-box}
+    html{scroll-snap-type:y mandatory}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#06182b}
+    .deck-nav{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(18,53,91,.94);display:flex;gap:10px;align-items:center;padding:10px 18px}
+    .deck-nav a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.35);border-radius:6px;padding:7px 10px;font-size:14px;font-weight:700}
+    .deck-nav img{width:34px;height:34px;object-fit:contain;background:#fff;border-radius:50%;margin-right:4px}
+    .slide{min-height:100vh;scroll-snap-align:start;padding:86px 7vw 54px;display:grid;align-items:center;position:relative;overflow:hidden;background:linear-gradient(135deg,#ffffff 0%,#f2f8ff 62%,#dceeff 100%)}
+    .slide:before{content:"";position:absolute;left:-10vw;right:-10vw;bottom:-18vh;height:42vh;background:linear-gradient(160deg,#ffffff 0 40%,#cfe5fb 40% 58%,#ffffff 58%);clip-path:polygon(0 58%,18% 24%,34% 50%,49% 14%,65% 48%,82% 20%,100% 56%,100% 100%,0 100%);opacity:.9}
+    .content{position:relative;z-index:2;max-width:1180px}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 13px;color:var(--blue);font-weight:800;margin-bottom:20px}
+    h1{font-size:clamp(42px,7vw,82px);line-height:1.02;margin:0 0 18px;color:var(--blue)}
+    h2{font-size:clamp(34px,5vw,64px);line-height:1.05;margin:0 0 22px;color:var(--blue)}
+    p{font-size:clamp(18px,2vw,25px);line-height:1.35;max-width:900px}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:28px}
+    .card{background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:8px;padding:20px;min-height:150px}
+    .card strong{display:block;color:var(--blue);font-size:clamp(24px,3vw,38px);line-height:1.05;margin-bottom:8px}
+    .two{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:start}
+    .panel{background:#fff;border:1px solid var(--line);border-left:7px solid var(--red);border-radius:8px;padding:22px}
+    .panel.green{border-left-color:var(--green)}
+    ul{font-size:clamp(18px,2vw,24px);line-height:1.42;margin:0;padding-left:26px}
+    li{margin:10px 0}
+    .metric{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:28px}
+    .metric div{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px;text-align:center}
+    .metric strong{display:block;color:var(--green);font-size:clamp(26px,4vw,48px)}
+    .footer-note{position:absolute;right:24px;bottom:18px;z-index:3;color:#29445f;font-weight:700}
+    @media(max-width:900px){.grid,.metric,.two{grid-template-columns:1fr}.slide{padding:82px 22px 52px}.deck-nav{overflow:auto}.footer-note{position:relative;right:auto;bottom:auto;margin-top:24px}}
+    @media print{html{scroll-snap-type:none}.deck-nav{display:none}.slide{min-height:720px;break-after:page;padding:40px}.slide:before{display:none}}
+  </style>
+</head>
+<body>
+<nav class="deck-nav">
+  <img src="../assets/logo.png" alt="">
+  <a href="../index.html">Forside</a>
+  <a href="#slide1">1</a>
+  <a href="#slide2">2</a>
+  <a href="#slide3">3</a>
+  <a href="#slide4">4</a>
+  <a href="#slide5">5</a>
+  <a href="prosjektrapport.html">Rapport</a>
+</nav>
+
+<section class="slide" id="slide1">
+  <div class="content">
+    <span class="eyebrow">PRINCE2: Avslutte et prosjekt</span>
+    <h1>World Cup Alpint Wyllerløypa 2028</h1>
+    <p>Et fiktivt arrangementsprosjekt brukt for å vise hvordan PRINCE2-prosessen for prosjektavslutning brukes i praksis: aksept, sluttrapport, gevinstoppfølging, læring og formell lukking.</p>
+    <div class="grid">
+      <div class="card"><strong>Prosjekt</strong>Internasjonalt alpint arrangement i Wyllerløypa.</div>
+      <div class="card"><strong>Formål</strong>Sportslig kvalitet, publikum, omdømme, økonomi og sosial verdi.</div>
+      <div class="card"><strong>Status</strong>Gjennomført som planlagt og klart for formell avslutning.</div>
+    </div>
+  </div>
+  <div class="footer-note">Slide 1 / 5</div>
+</section>
+
+<section class="slide" id="slide2">
+  <div class="content">
+    <span class="eyebrow">Hva ble levert?</span>
+    <h2>Prosjektproduktet ble levert og akseptert</h2>
+    <div class="two">
+      <div class="panel green">
+        <ul>
+          <li>World Cup-renn i alpint over to arrangementsdager.</li>
+          <li>Arena, løype, målområde, publikumsflyt og sikkerhetsopplegg.</li>
+          <li>TV/media, pressefasiliteter, sponsorflater og VIP/hospitality.</li>
+          <li>Frivilligorganisasjon, transport, mat/drikke og publikumsservice.</li>
+          <li>Sosial inkluderingsaktivitet og bærekraftsrapportering.</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <p><strong>PRINCE2-poeng:</strong> Prosjektet kan ikke lukkes bare fordi arrangementet er ferdig. Det må bekreftes at prosjektproduktet er akseptert og at leveranser er overført til mottakere.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-note">Slide 2 / 5</div>
+</section>
+
+<section class="slide" id="slide3">
+  <div class="content">
+    <span class="eyebrow">Prosessen brukt i praksis</span>
+    <h2>Slik ble “Avslutte et prosjekt” brukt</h2>
+    <div class="grid">
+      <div class="card"><strong>1. Aksept</strong>Bekreftet at prosjektproduktet og godkjente endringer var levert.</div>
+      <div class="card"><strong>2. Evaluering</strong>Sammenlignet resultat mot prosjektplan, business case, kvalitet, risiko og fremdrift.</div>
+      <div class="card"><strong>3. Overføring</strong>Overførte manualer, rapporter, regnskap, partneroppfølging og gevinstmåling til linjen.</div>
+      <div class="card"><strong>4. Sluttrapport</strong>Dokumenterte ytelse, måloppnåelse, avvik, læring og restpunkter.</div>
+      <div class="card"><strong>5. Gevinster</strong>Bekreftet realiserte gevinster og oppdaterte plan for videre måling.</div>
+      <div class="card"><strong>6. Autorisering</strong>Prosjektstyret tar endelig beslutning om formell prosjektavslutning.</div>
+    </div>
+  </div>
+  <div class="footer-note">Slide 3 / 5</div>
+</section>
+
+<section class="slide" id="slide4">
+  <div class="content">
+    <span class="eyebrow">Resultater</span>
+    <h2>Måloppnåelse, kvalitet, økonomi og gevinster</h2>
+    <div class="metric">
+      <div><strong>100 %</strong>Strategiske mål møtt</div>
+      <div><strong>Akseptert</strong>Prosjektprodukt</div>
+      <div><strong>Overskudd</strong>Økonomisk resultat</div>
+      <div><strong>Overført</strong>Leveranser til linje</div>
+    </div>
+    <div class="two" style="margin-top:28px">
+      <div class="panel green">
+        <ul>
+          <li>Business case ble opprettholdt gjennom hele prosjektet.</li>
+          <li>Kritiske kvalitetskriterier ble nådd.</li>
+          <li>Ingen åpne røde risikoer hindrer avslutning.</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <ul>
+          <li>Gevinstmåling fortsetter etter prosjektet.</li>
+          <li>Restarbeid har eier, frist og oppfølgingsarena.</li>
+          <li>Prosjektstyret får et tydelig beslutningsgrunnlag.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-note">Slide 4 / 5</div>
+</section>
+
+<section class="slide" id="slide5">
+  <div class="content">
+    <span class="eyebrow">Læring og avslutning</span>
+    <h2>Formell anbefaling: lukk prosjektet</h2>
+    <div class="two">
+      <div>
+        <p>Gruppens konklusjon er at prosjektleder bør anbefale prosjektstyret å autorisere formell prosjektavslutning.</p>
+        <p>Begrunnelsen er at prosjektproduktet er akseptert, målene er nådd, leveransene er overført, gevinster er dokumentert og videre oppfølging er plassert hos gevinsteiere.</p>
+      </div>
+      <div class="panel green">
+        <ul>
+          <li>Sluttrapport ferdigstilt</li>
+          <li>Erfaringsrapport etablert</li>
+          <li>Gevinsttilnærming oppdatert</li>
+          <li>Restpunkter overført</li>
+          <li>Prosjektstyret autoriserer avslutning</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-note">Slide 5 / 5</div>
+</section>
+</body>
+</html>

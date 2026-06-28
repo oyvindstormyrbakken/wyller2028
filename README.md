@@ -6,6 +6,8 @@ Denne pakken inneholder en enkel statisk GitHub Pages-side for å navigere mello
 - Prosjektplan
 - Produktbeskrivelser og produktnedbrytningsstruktur
 - Prosjektorganisasjon
+- PRINCE2-gruppeoppgave: prosjektrapport for “Avslutte et prosjekt”
+- HTML-presentasjon for gruppefremføring
 - DOCX-nedlastinger for begge dokumenter
 - Excel-filer for KPI, governance, seniorroller, prosjektstyre, prosjektlogg og faseplaner
 - Excel-fil for interessentkartlegging og kommunikasjonsledelse
@@ -27,6 +29,9 @@ docs/
     prosjektplan.docx
     produktbeskrivelser.html
     Prosjektorganisasjon-World-Cup-Alpint-Wyllerloypa-2028.html
+    prosjektrapport.html
+    presentasjon.html
+    anmodning-prosjektautorisering.html
     kpi-matrise.xlsx
     governance-matrise.xlsx
     seniorbrukere-seniorleverandorer.xlsx
